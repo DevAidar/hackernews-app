@@ -1,0 +1,118 @@
+html, body, #app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 5px;
+}
+
+.dark {
+  color: #DADADA;
+  background: #1c2022;
+  min-height: 100%;
+}
+
+.dark a {
+  color: rgb(203, 203, 203);
+}
+
+.link {
+  color: rgb(187, 46, 31);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 0 1em 0;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.row-nav-link, .row-nav-link:hover, .row-nav-link:focus {
+  all: unset;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.row-nav li {
+  margin-right: 10px;
+}
+
+.btn-clear {
+  border: none;
+  background: transparent;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.post {
+  margin: 20px 0;
+}
+
+.meta-info-light {
+  margin-top: 5px;
+  color: gray;
+}
+
+.meta-info-light a {
+  color: black;
+}
+
+.meta-info-light span {
+  margin: 10px 0;
+  margin-right: 6px;
+}
+
+.meta-info-dark {
+  margin-top: 5px;
+  color: gray;
+}
+
+.meta-info-dark a {
+  color: #bebebe;
+}
+
+.meta-info-dark span {
+  margin: 10px 0;
+  margin-right: 6px;
+}
