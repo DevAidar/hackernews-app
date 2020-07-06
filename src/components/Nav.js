@@ -11,7 +11,7 @@ export default function Nav() {
       <ul className='row row-nav'>
         <li>
           <NavLink
-            to='/hacker-news-app/'
+            to='/hackernews-app/'
             exact
             activeStyle={activeStyle}
             className='row-nav-link'
@@ -21,7 +21,7 @@ export default function Nav() {
         </li>
         <li>
           <NavLink
-            to='/hacker-news-app/new/'
+            to='/hackernews-app/new/'
             activeStyle={activeStyle}
             className='row-nav-link'
           >

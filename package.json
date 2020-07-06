@@ -1,6 +1,6 @@
 {
-  "name": "hacker-news-app",
-  "homepage": "https://devaidar.github.io/hacker-news-app/",
+  "name": "hackernews-app",
+  "homepage": "https://devaidar.github.io/hackernews-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

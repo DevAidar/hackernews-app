@@ -49,16 +49,16 @@ export default function User() {
             ? <div>
               {posts.slice(0, limit).map(post => (
                 <div key={post.id} className="blog-post">
-                  <Link to={`/hacker-news-app/post/${post.id}/`} className='component'>
+                  <Link to={`/hackernews-app/post/${post.id}/`} className='component'>
                     <h2 className="blog-post-title no-wrap">{post.title}</h2>
                   </Link>
                   <p className="blog-post-meta">
                     {`By `}
-                    <Link to={`/hacker-news-app/user/${post.by}/`} className='component'>
+                    <Link to={`/hackernews-app/user/${post.by}/`} className='component'>
                       {post.by}
                     </Link>
                   </p>
-                  <Link to={`/hacker-news-app/post/${post.id}/`} className='components'>
+                  <Link to={`/hackernews-app/post/${post.id}/`} className='components'>
                     <div className='components'>
                       <img src={scoreImg} alt='score' className='logo' />
                       <p className='component'>{post.score}</p>

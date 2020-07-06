@@ -50,7 +50,7 @@ export default function Post() {
     const render = (commentsX, position) => commentsX ? commentsX.slice(0, position.length > 0 ? comments.length : limit).map((comment, index) => (
       <div key={`${comment.id}.${comment.by}.${index}`} className='media'>
         <div className="media-body">
-          <Link to={`/hacker-news-app/user/${comment.by}/`}><h5 className='mt-0 font-weight-bold blue-text'>{comment.by}</h5></Link>
+          <Link to={`/hackernews-app/user/${comment.by}/`}><h5 className='mt-0 font-weight-bold blue-text'>{comment.by}</h5></Link>
           <h5>{getCleanComment(comment.text)}</h5>
           {comment.comments && comment.comments.length > 0
             ? <div className='media-right'>
@@ -113,7 +113,7 @@ export default function Post() {
         </a>
         <p className="blog-post-meta">
           {`By `}
-          <Link to={`/hacker-news-app/user/${post.by}/`} className='component'>
+          <Link to={`/hackernews-app/user/${post.by}/`} className='component'>
             {post.by}
           </Link>
         </p>
