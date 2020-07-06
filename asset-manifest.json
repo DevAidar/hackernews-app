@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hacker-news-app/static/css/main.ea79625f.chunk.css",
-    "main.js": "/hacker-news-app/static/js/main.911ea5bd.chunk.js",
-    "main.js.map": "/hacker-news-app/static/js/main.911ea5bd.chunk.js.map",
-    "runtime-main.js": "/hacker-news-app/static/js/runtime-main.663cf605.js",
-    "runtime-main.js.map": "/hacker-news-app/static/js/runtime-main.663cf605.js.map",
-    "static/js/2.125a91f4.chunk.js": "/hacker-news-app/static/js/2.125a91f4.chunk.js",
-    "static/js/2.125a91f4.chunk.js.map": "/hacker-news-app/static/js/2.125a91f4.chunk.js.map",
-    "index.html": "/hacker-news-app/index.html",
-    "precache-manifest.c7c20bb3e7483d4838abcd7fcb9283e8.js": "/hacker-news-app/precache-manifest.c7c20bb3e7483d4838abcd7fcb9283e8.js",
-    "service-worker.js": "/hacker-news-app/service-worker.js",
-    "static/css/main.ea79625f.chunk.css.map": "/hacker-news-app/static/css/main.ea79625f.chunk.css.map",
-    "static/js/2.125a91f4.chunk.js.LICENSE.txt": "/hacker-news-app/static/js/2.125a91f4.chunk.js.LICENSE.txt"
+    "main.css": "/hackernews-app/static/css/main.ea79625f.chunk.css",
+    "main.js": "/hackernews-app/static/js/main.816d230f.chunk.js",
+    "main.js.map": "/hackernews-app/static/js/main.816d230f.chunk.js.map",
+    "runtime-main.js": "/hackernews-app/static/js/runtime-main.9d5d89f5.js",
+    "runtime-main.js.map": "/hackernews-app/static/js/runtime-main.9d5d89f5.js.map",
+    "static/js/2.50eff504.chunk.js": "/hackernews-app/static/js/2.50eff504.chunk.js",
+    "static/js/2.50eff504.chunk.js.map": "/hackernews-app/static/js/2.50eff504.chunk.js.map",
+    "index.html": "/hackernews-app/index.html",
+    "precache-manifest.6a21824ba1dd6255d760ec3dea806581.js": "/hackernews-app/precache-manifest.6a21824ba1dd6255d760ec3dea806581.js",
+    "service-worker.js": "/hackernews-app/service-worker.js",
+    "static/css/main.ea79625f.chunk.css.map": "/hackernews-app/static/css/main.ea79625f.chunk.css.map",
+    "static/js/2.50eff504.chunk.js.LICENSE.txt": "/hackernews-app/static/js/2.50eff504.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.663cf605.js",
-    "static/js/2.125a91f4.chunk.js",
+    "static/js/runtime-main.9d5d89f5.js",
+    "static/js/2.50eff504.chunk.js",
     "static/css/main.ea79625f.chunk.css",
-    "static/js/main.911ea5bd.chunk.js"
+    "static/js/main.816d230f.chunk.js"
   ]
 }
